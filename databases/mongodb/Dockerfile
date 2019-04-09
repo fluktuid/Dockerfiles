@@ -1,4 +1,5 @@
 from alpine:3.9
+LABEL maintainer="Lukas f. Paluch <fluktuid@gmail.com>"
 RUN apk add --no-cache mongodb=4.0.5-r0
 
 volume /data/db
