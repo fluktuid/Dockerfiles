@@ -8,7 +8,7 @@ VOLUME ["/source"]
 WORKDIR /source
 
 COPY de_DE de_DE/
-RUN chmod -R 0444 de_DE
+RUN chmod -R 0666 de_DE/
 
 CMD ["sh"]
 
