@@ -1,0 +1,5 @@
+FROM node:13-alpine
+LABEL maintainer="fluktuid@gmail.com"
+RUN apk add python g++ make
+
+ENTRYPOINT ["/bin/sh"]
